@@ -1,6 +1,6 @@
 let divContainer = document.querySelector("#divContainer");
-let gridWidth = 4;
-let gridHeight = 4;
+let gridWidth = 16;
+let gridHeight = 16;
 
 // Creating div grid
 
