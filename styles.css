@@ -1,9 +1,21 @@
+body {
+    background-color: rgb(251, 218, 187);
+}
+
+#header {
+    font-size: 50px;
+    padding: 0px 0px 8px 0px;
+    text-align: center;
+}
+
 #divContainer {
+    width: 60vw;
+    height: 60vh;
     margin: auto;
     text-align: center;
 }
 
-.gridRow {
+.gridColumn {
     display: inline-block;
 }
 
