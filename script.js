@@ -26,7 +26,10 @@ function resizeGrid(gW) {
 resizeGrid(gridWidth);
 
 let dimension = document.querySelector(".slider");
-console.log(dimension.value);
+let dimensionText = document.getElementById("text")
+console.log(dimensionText.textContent)
 dimension.addEventListener("change", () => {
+    dimensionText.textContent = `Grid size: ${dimension.value}x${dimension.value}`;
+    console.log(dimensionText.textContent);
     divContainer.innerHTML = "";
     resizeGrid(dimension.value)});
