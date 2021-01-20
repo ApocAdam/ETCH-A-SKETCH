@@ -33,6 +33,7 @@ body {
 }
 
 #dimensionEntry {
+    padding: 16px 0px 0px 0px;
     text-align: center;
     justify-content: center;
 }
